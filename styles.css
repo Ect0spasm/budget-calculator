@@ -10,3 +10,13 @@
 body {
     background-color: var(--bg-color);
 }
+.monthlyexpenses {
+    background-color: #676767;
+}
+.row {
+    display: flex;
+    background-color: var(--table-bg-color);
+}
+.M {
+    background-color: var(--table-bg-color);
+}
