@@ -92,10 +92,31 @@ h1, h3 {
 
 .deductions {
     margin-left: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    columns: 3 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.deductions #one {
+    padding-left: 33%;
+}
+.deductions #two {
+    padding-left: 33%;
+}
+
+.deductions #three {
+    padding-left: 33%;
 }
 
 #Netmonthly {
 margin-left: 8.7%;
+}
+
+#td {
+    margin-left: 8%;
 }
 
 #grossMIncome {
